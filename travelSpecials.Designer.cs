@@ -1,0 +1,181 @@
+﻿
+namespace Travel_Specials
+{
+    partial class travelSpecials
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.hawaiiButton = new System.Windows.Forms.Button();
+            this.lasVegasButton = new System.Windows.Forms.Button();
+            this.newOrleansButton = new System.Windows.Forms.Button();
+            this.arubaButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.destinationPictureBox = new System.Windows.Forms.PictureBox();
+            this.destinationLabel = new System.Windows.Forms.Label();
+            this.destinationPriceLabel = new System.Windows.Forms.Label();
+            this.orlandoButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.destinationPictureBox)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // hawaiiButton
+            // 
+            this.hawaiiButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.hawaiiButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hawaiiButton.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.hawaiiButton.Location = new System.Drawing.Point(47, 153);
+            this.hawaiiButton.Name = "hawaiiButton";
+            this.hawaiiButton.Size = new System.Drawing.Size(123, 48);
+            this.hawaiiButton.TabIndex = 1;
+            this.hawaiiButton.Text = "Hawaii";
+            this.hawaiiButton.UseVisualStyleBackColor = false;
+            this.hawaiiButton.Click += new System.EventHandler(this.hawaiiButton_Click);
+            // 
+            // lasVegasButton
+            // 
+            this.lasVegasButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.lasVegasButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lasVegasButton.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.lasVegasButton.Location = new System.Drawing.Point(47, 213);
+            this.lasVegasButton.Name = "lasVegasButton";
+            this.lasVegasButton.Size = new System.Drawing.Size(123, 48);
+            this.lasVegasButton.TabIndex = 2;
+            this.lasVegasButton.Text = "Las Vegas";
+            this.lasVegasButton.UseVisualStyleBackColor = false;
+            this.lasVegasButton.Click += new System.EventHandler(this.lasVegasButton_Click);
+            // 
+            // newOrleansButton
+            // 
+            this.newOrleansButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.newOrleansButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.newOrleansButton.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.newOrleansButton.Location = new System.Drawing.Point(47, 273);
+            this.newOrleansButton.Name = "newOrleansButton";
+            this.newOrleansButton.Size = new System.Drawing.Size(123, 48);
+            this.newOrleansButton.TabIndex = 3;
+            this.newOrleansButton.Text = "New Orleans";
+            this.newOrleansButton.UseVisualStyleBackColor = false;
+            this.newOrleansButton.Click += new System.EventHandler(this.newOrleansButton_Click);
+            // 
+            // arubaButton
+            // 
+            this.arubaButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.arubaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.arubaButton.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.arubaButton.Location = new System.Drawing.Point(47, 333);
+            this.arubaButton.Name = "arubaButton";
+            this.arubaButton.Size = new System.Drawing.Size(123, 48);
+            this.arubaButton.TabIndex = 4;
+            this.arubaButton.Text = "Aruba";
+            this.arubaButton.UseVisualStyleBackColor = false;
+            this.arubaButton.Click += new System.EventHandler(this.arubaButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(237, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Click on destination for more Travel Specials Info";
+            // 
+            // destinationPictureBox
+            // 
+            this.destinationPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.destinationPictureBox.Location = new System.Drawing.Point(328, 128);
+            this.destinationPictureBox.Name = "destinationPictureBox";
+            this.destinationPictureBox.Size = new System.Drawing.Size(286, 171);
+            this.destinationPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.destinationPictureBox.TabIndex = 6;
+            this.destinationPictureBox.TabStop = false;
+            this.destinationPictureBox.Click += new System.EventHandler(this.destinationPictureBox_Click);
+            // 
+            // destinationLabel
+            // 
+            this.destinationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.destinationLabel.Location = new System.Drawing.Point(338, 333);
+            this.destinationLabel.Name = "destinationLabel";
+            this.destinationLabel.Size = new System.Drawing.Size(286, 23);
+            this.destinationLabel.TabIndex = 7;
+            // 
+            // destinationPriceLabel
+            // 
+            this.destinationPriceLabel.Location = new System.Drawing.Point(338, 384);
+            this.destinationPriceLabel.Name = "destinationPriceLabel";
+            this.destinationPriceLabel.Size = new System.Drawing.Size(286, 23);
+            this.destinationPriceLabel.TabIndex = 8;
+            this.destinationPriceLabel.Click += new System.EventHandler(this.destinationPriceLabel_Click);
+            // 
+            // orlandoButton
+            // 
+            this.orlandoButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.orlandoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.orlandoButton.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.orlandoButton.Location = new System.Drawing.Point(47, 93);
+            this.orlandoButton.Name = "orlandoButton";
+            this.orlandoButton.Size = new System.Drawing.Size(123, 48);
+            this.orlandoButton.TabIndex = 9;
+            this.orlandoButton.Text = "Orlando";
+            this.orlandoButton.UseVisualStyleBackColor = false;
+            this.orlandoButton.Click += new System.EventHandler(this.orlandoButton_Click);
+            // 
+            // travelSpecials
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Khaki;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.orlandoButton);
+            this.Controls.Add(this.destinationPriceLabel);
+            this.Controls.Add(this.destinationLabel);
+            this.Controls.Add(this.destinationPictureBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.arubaButton);
+            this.Controls.Add(this.newOrleansButton);
+            this.Controls.Add(this.lasVegasButton);
+            this.Controls.Add(this.hawaiiButton);
+            this.Name = "travelSpecials";
+            this.Text = "Travel Specials";
+            this.Load += new System.EventHandler(this.travelSpecials_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.destinationPictureBox)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.Button hawaiiButton;
+        private System.Windows.Forms.Button lasVegasButton;
+        private System.Windows.Forms.Button newOrleansButton;
+        private System.Windows.Forms.Button arubaButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox destinationPictureBox;
+        private System.Windows.Forms.Label destinationLabel;
+        private System.Windows.Forms.Label destinationPriceLabel;
+        private System.Windows.Forms.Button orlandoButton;
+    }
+}
+
